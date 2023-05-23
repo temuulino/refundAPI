@@ -6,11 +6,13 @@ One of the key challenges we encountered was the lack of .NET support in our int
 
 The implementation involved establishing a connection between the C# code and MSSQL by leveraging it as an assembly. Within the MSSQL procedure, I incorporated a code snippet that triggers a POST request to initiate the refund process. This procedure intelligently captures user input, retrieves the necessary API credentials, and securely transmits the information to the C# solution.
 
-https://mail.google.com/mail/u/0?ui=2&ik=6ce919b2cd&attid=0.6&permmsgid=msg-f:1766070482045437314&th=188257bf129f0582&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9--eIatI4-eV5emfB8SsKZxi_a1hSxEBX5L-zMtFtXUeLB9wqoSo1B-iZcS-3ntYdFReNtWtj_p2Fzg7SsnhU2FFdPfogEvRRp6YiiMZcdcGgQ6LhR7UUTb9Q&disp=emb
+![assembly](https://github.com/temuulino/refundAPI/assets/72473361/7eab73d2-ec46-4205-89dd-666ece8dd992)
+
+![exec](https://github.com/temuulino/refundAPI/assets/72473361/cb19147b-66e5-41bd-9859-0222ed997ac3)
 
 In the C# solution, the received data is processed, and a POST request is made to the designated API endpoint. This request includes all the relevant details for executing the refund. Once the API server processes the request, it generates a response that is seamlessly relayed back to the SQL Server.
 
-https://mail.google.com/mail/u/0?ui=2&ik=6ce919b2cd&attid=0.1&permmsgid=msg-f:1766070482045437314&th=188257bf129f0582&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_Mji_4k3cu1RaTvqTz86Eq2ywNvVIuQVMNxIIz-EnDG6HLNcz_g_gsWKRzfMa9Y2dO3ioaKe92Ph2M3oONmMpU3qNfqd-0IHjcuXH4I7QHqFvOvGJF7ACwZok&disp=emb
+![c#](https://github.com/temuulino/refundAPI/assets/72473361/50fc7f42-bcee-4a1a-8f98-665b23969c9e)
 
 The integration of this refund API solution has had a profound impact on our operations. First and foremost, it has significantly reduced the burden on our accounting team, eliminating the need for manual refund processing. By automating the refund process, we have expedited the turnaround time for refunds, resulting in improved customer satisfaction and a more efficient resolution of customer inquiries.
 
@@ -20,5 +22,5 @@ This solution has not only increased operational efficiency but has also enhance
 
 In summary, the refund API solution I developed using C# and MSSQL has revolutionized the refund process at White Castle. By automating and streamlining the process, we have achieved faster and more accurate refunds, improved customer satisfaction, and relieved the burden on our accounting team. This innovation has not only optimized internal operations but has also elevated the user experience, ultimately contributing to the overall success of our business.
 
-https://mail.google.com/mail/u/0?ui=2&ik=6ce919b2cd&attid=0.1&permmsgid=msg-f:1766071097883168594&th=1882584e75690f52&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9RF7G6YysF_nOP1oMMfqDEbvaNp9QxnYrYUXNyj2vvcaVw6GcdT55j8jLsXh3eXoWZR9uJ1pbgI7kMiJ5tEe_9Xd7lpMLmA1tUs4fxIXAT34q8RDucTFFrJ9Y&disp=emb
+![ticket](https://github.com/temuulino/refundAPI/assets/72473361/b38faa81-3964-4db4-a9d0-a3b2c88628ca)
 
